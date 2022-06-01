@@ -301,7 +301,6 @@ textarea:hover,
 /* Services */
 .services-wrapper .card{
     background-color: var(--bg-dark-blue);
-    cursor: pointer;
     transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
     box-shadow: 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
 }
@@ -317,7 +316,6 @@ textarea:hover,
     min-height: 350px;
     overflow: hidden;
     border: 1px solid var(--bg-white);
-    cursor: pointer;
     box-shadow: 0 0 16px 4px var(--bg-dark-blue);
 }
 
