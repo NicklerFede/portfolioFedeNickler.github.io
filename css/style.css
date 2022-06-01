@@ -151,10 +151,7 @@ input:hover,
 input:focus,
 textarea:focus,
 textarea:hover,
-button{
-    outline: none !important;
-    box-shadow: none !important;
-}
+
 
 /* Navbar */
 .header-wrapper .navbar{
@@ -239,7 +236,6 @@ button{
 
 /* About */
 .about-wrapper ul.nav-pills{
-    border:1px solid var(--gray-color);
     border-radius: 50px;
 }
 .about-wrapper ul li .nav-link{
@@ -256,7 +252,8 @@ button{
     background: var(--primary-color);
 }
 .about-wrapper .single-progress{
-    margin-top: 26px;
+    padding: 1px;
+    margin-top: 10px;
     position: relative;
     overflow: hidden;
     text-align: left;
