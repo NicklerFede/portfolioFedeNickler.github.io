@@ -147,14 +147,8 @@ p{
     -webkit-text-fill-color: transparent;
 }
 
-input:hover,
-input:focus,
-textarea:focus,
-textarea:hover,
-
-
 /* Navbar */
-.header-wrapper .navbar{
+.header-wrapper .navbar img{
     padding: 15px 0;
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
@@ -162,10 +156,6 @@ textarea:hover,
     background-color: #0e1525;
 }
 
-.header-wrapper .navbar-brand img{
-    max-width: 120px;
-    height: auto;
-}
 
 .header-wrapper .navbar-toggler{
     border: 0;
